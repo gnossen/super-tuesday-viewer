@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Super Tuesday Viewer</title>
+        <style>
+            iframe::-webkit-scrollbar {
+                display: none;
+            }
+
+            #viewer-left {
+                width: 50%;
+                height: 100%;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+            }
+
+            #viewer-right {
+                width: 50%;
+                height: 100%;
+                position: absolute;
+                left: 50%
+                top: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <iframe id="viewer-left" frameBorder="0" style="width: 50%; height: 800px" src="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=iowa+caucus+results" nwdisable nwfaketop></iframe>
+        <script src="js/supertuesday.js"></script>
+    </body>
+</head>
