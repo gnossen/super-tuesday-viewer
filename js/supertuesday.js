@@ -1,9 +1,12 @@
 var pauseTime = 8000;
 
 var viewerLeft = document.getElementById("viewer-left");
+
+/*
 viewerLeft.onload = function() {
     viewerLeft.contentWindow.scrollTo(0, 150);
 };
+*/
 
 var linkListLeft = [ "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=alabama+republican+primary+results&eob=m.0gyh/R/2/short/m.0gyh/",
                 "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=alaska+republican+caucus+results&eob=m.0hjy/R/2/short/m.0hjy/",
@@ -29,9 +32,12 @@ var displayNextLinkLeft = function(index) {
 };
 
 var viewerRight = document.getElementById("viewer-right");
+
+/*
 viewerRight.onload = function() {
     viewerRight.contentWindow.scrollTo(0, 150);
 };
+*/
 
 var linkListRight = [
     "https://www.google.com/?gfe_rd=ssl&ei=EBrVVs_7I4Sp-gWvxpW4DQ#q=alabama+democratic+primary+results",

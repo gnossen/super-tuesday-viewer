@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "window": {
-    "toolbar": true,
-    "fullscreen": false
+    "toolbar": false,
+    "fullscreen": true
   },
   "author": "gnossen (Richard Belleville)",
   "license": "MIT"
